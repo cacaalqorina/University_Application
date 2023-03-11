@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">University Application</string>
+    <string name="myName">Annisa Alqorina</string>
+    <string name="myEmail">annisa.alqorina1075@gmail.com</string>
+    <string name="myGithub">github.com/cacaalqorina</string>
+    <string name="details">details</string>
+    <string name="university_img">university-img</string>
+    <string name="app_title">Top University in Riau App</string>
+    <string name="about_me">about me</string>
+    <string name="share">Share</string>
+    <string name="accreditation">Akreditasi:</string>
+    <string name="address">Alamat:</string>
+    <string name="sinceInyear">Sejak Tahun:</string>
+</resources>

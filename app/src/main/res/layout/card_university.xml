@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_universityPhoto"
+            android:layout_width="90dp"
+            android:layout_height="130dp"
+            android:contentDescription="@string/university_img"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/tv_universityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:text="University Name"
+            android:layout_toEndOf="@id/iv_universityPhoto"/>
+
+        <TextView
+            android:id="@+id/tv_universityAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_universityName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            tools:text="Address University"
+            android:layout_toEndOf="@id/iv_universityPhoto"/>
+
+        <Button
+            android:id="@+id/bt_detail"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/details"
+            android:textFontWeight="1"
+            android:textSize="12sp"
+            android:layout_toEndOf="@id/iv_universityPhoto"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
